@@ -14,7 +14,7 @@ public class PropertyInjectedControllerTest {
         this.propertyInjectedController.greetingService=new GreetingServiceImpl();
     }
     @Test
-    public void testGreting(){
+    public void testGreeting(){
         assertEquals(GreetingServiceImpl.HELLO_FOLKS,propertyInjectedController.sayHello());
     }
 
